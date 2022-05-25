@@ -18,7 +18,7 @@ function addOpacity(event) {
 
 function removeOpacity(event) {
      if (this.classList.contains ('dim')){
-         this.classList.add('dim')
+         this.classList.remove('dim')
      }
 
     let element = document.getElementById('color-price');
